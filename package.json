@@ -8,6 +8,7 @@
     "dev": "nodemon server/app.js",
     "init-db": "node server/utils/initDb.js",
     "reset-db": "node server/utils/initDb.js reset",
+    "test-model": "node server/utils/testUserModel.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
